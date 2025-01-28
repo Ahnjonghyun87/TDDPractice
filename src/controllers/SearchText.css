@@ -1,0 +1,33 @@
+.searchTextWrapper {
+  display: flex;
+  flex-direction: column; /* 세로 정렬 */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 15px; /* 요소 간 간격 추가 */
+}
+
+.searchTextInput {
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.searchButton {
+  width: 120px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.searchButton:hover {
+  background-color: #0056b3;
+}
